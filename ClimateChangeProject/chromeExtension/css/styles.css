@@ -1,0 +1,16 @@
+body{
+    margin: 0 auto;
+    width: 95%;
+    min-width: 175px;
+    text-align: center;
+}
+
+h2{
+    background-color: gray;
+    color: white;
+}
+
+strong{
+    color: red;
+    font-size: 110%;
+}

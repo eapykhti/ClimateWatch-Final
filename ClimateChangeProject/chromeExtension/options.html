@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Settings</title>
+    </head>
+    <body>
+        <h2>Climate Watch Settings</h2>
+        <fieldset>      
+            <legend>Misinformation categories to flag:</legend>      
+            <input type="checkbox" name="misinfo_category" value="oAndE" id="oAndE"checked>Occurences and Effects<br>      
+            <input type="checkbox" name="misinfo_category" value="manMade" id="manMade" checked>Man-made<br>      
+            <input type="checkbox" name="misinfo_category" value="impacts" id="impacts" checked>Harmful Impacts<br>
+            <input type="checkbox" name="misinfo_category" value="science" id="science" checked>Scientific Agreement<br>        
+            <br>        
+        </fieldset>
+
+        <label>
+            Highlighter Color:
+            <select id="color">
+                <option value="red">red</option>
+                <option value="green">green</option>
+                <option value="blue">blue</option>
+                <option value="yellow">yellow</option>
+            </select>
+        </label>
+
+        <div id="status"></div>
+        <button id="save">Save</button>
+        <script src="scripts/options.js"></script>
+    </body>
+</html>

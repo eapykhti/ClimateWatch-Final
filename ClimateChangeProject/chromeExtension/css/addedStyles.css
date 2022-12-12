@@ -1,0 +1,80 @@
+.climateWatch_tooltip{
+  position: relative;
+}
+
+.climateWatch_tooltip .climateWatch_tooltipText {
+  visibility: hidden;
+  width: 300px;
+  line-height: 90%;
+  font-size: 85%;
+  background-color: rgb(233, 231, 231);
+  color: black;
+  text-align: center;
+  padding: 5px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 99;
+  bottom: 105%;
+  left: 50%;
+  margin-left: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid black;
+  border-radius: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow: visible;
+}
+
+.climateWatch_tooltip:hover .climateWatch_tooltipText {
+  visibility: visible;
+  margin-left: -150px !important;
+  overflow: visible;
+}
+
+.climateWatch_tooltip .climateWatch_tooltipText::after {
+  content: " ";
+  position: absolute !important;
+  top: 100% !important;
+  left: 50% !important;
+  margin-left: 0px !important;
+  border-width: 5px !important;
+  border-style: solid !important;
+  border-color: white transparent transparent transparent !important;
+}
+
+.climateWatch_tooltipText > button {
+  background-color:rgb(80, 80, 80) !important;
+  color: white !important;
+  border: 2px solid black !important;
+  border-radius: 20px !important;
+  text-align: center !important;
+  margin: 0 25px;
+}
+
+.climateWatch_tooltipText > button:hover {
+  background-color:rgb(137, 98, 98) !important;
+}
+
+.blockButton {
+  display: block !important; 
+  margin: auto !important;
+}
+
+fieldset {
+  text-align: left;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin: 10px;
+}
+
+#save {
+  background-color:rgb(80, 80, 80);
+  color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 10px;
+  padding: 5px;
+}
